@@ -1,0 +1,38 @@
+@use "../abstract/variable" as var;
+@use "../abstract/function" as func;
+
+.header {
+
+    padding: 1rem 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+
+
+    &--menu {
+        display: flex;
+        list-style: none;
+        text-transform: uppercase;
+        color: #000;
+        align-items: center;
+
+        &__item>a {
+            margin-right: 1.5rem;
+            font-size: 14px;
+            font-weight: 600;
+            color: #242424;
+            transition: 200ms;
+
+            &:hover {
+                color: func.theme-colors();
+            }
+
+            &.active {
+                color: func.theme-colors();
+            }
+
+        }
+    }
+
+}
