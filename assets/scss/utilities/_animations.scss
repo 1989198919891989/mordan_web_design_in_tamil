@@ -2,10 +2,23 @@
     0% {
         color: red;
     }
+
     50% {
         color: blue;
     }
+
     100% {
         color: green;
     }
+}
+
+@keyframes box-shape {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
 }

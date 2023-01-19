@@ -34,6 +34,14 @@ a {
     color: green;
   }
 }
+@keyframes box-shape {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .m-1 {
   margin: spacerem !important;
 }
@@ -737,6 +745,136 @@ a {
 }
 .header--menu__item > a.active {
   color: #3f43fd;
+}
+
+.background-shapes .box1 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  border: 3px solid #3f43fd;
+  border-radius: 0.35rem;
+  z-index: -1;
+  transform: rotate(360deg);
+  animation: box-shape linear 5s infinite;
+}
+.background-shapes .box2 {
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  border: 3px solid #3f43fd;
+  border-radius: 0.35rem;
+  z-index: -1;
+  transform: rotate(360deg);
+  animation: box-shape linear 5s infinite;
+}
+.background-shapes .box3 {
+  position: absolute;
+  top: 30%;
+  left: 90%;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  border: 3px solid #3f43fd;
+  border-radius: 0.35rem;
+  z-index: -1;
+  transform: rotate(360deg);
+  animation: box-shape linear 5s infinite;
+}
+.background-shapes .dot1 {
+  position: absolute;
+  top: 77%;
+  left: 6%;
+  width: 8px;
+  height: 8px;
+  background-color: #3f43fd;
+  border-radius: 50px;
+  z-index: -1;
+  transform: rotate(360deg);
+  animation: box-shape linear 5s infinite;
+}
+.background-shapes .dot2 {
+  position: absolute;
+  top: 80%;
+  right: 4%;
+  width: 8px;
+  height: 8px;
+  background-color: #f4284a;
+  border-radius: 50px;
+  z-index: -1;
+  transform: rotate(360deg);
+  animation: box-shape linear 5s infinite;
+}
+.background-shapes .dot3 {
+  position: absolute;
+  top: 90%;
+  left: 43%;
+  width: 8px;
+  height: 8px;
+  background-color: #f4284a;
+  border-radius: 50px;
+  z-index: -1;
+  transform: rotate(360deg);
+  animation: box-shape linear 5s infinite;
+}
+.background-shapes .dot4 {
+  position: absolute;
+  top: 91%;
+  left: 5%;
+  width: 8px;
+  height: 8px;
+  background-color: #3f43fa;
+  border-radius: 50px;
+  z-index: -1;
+  transform: rotate(360deg);
+  animation: box-shape linear 5s infinite;
+}
+.background-shapes .heart1 {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 51%;
+  left: 13%;
+  z-index: -1;
+  color: #f4284a;
+  animation: box-shape linear 5s infinite;
+}
+.background-shapes .heart2 {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 55%;
+  right: 8%;
+  z-index: -1;
+  color: #f4284a;
+  animation: box-shape linear 5s infinite;
+}
+.background-shapes .circle1 {
+  position: absolute;
+  bottom: 80%;
+  left: 21%;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #f4284a;
+  border-radius: 50px;
+  z-index: -1;
+  transform: rotate(360deg);
+  animation: box-shape linear 5s infinite;
+}
+.background-shapes .circle2 {
+  position: absolute;
+  top: 24%;
+  left: 52%;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #f4284a;
+  border-radius: 50px;
+  z-index: -1;
+  transform: rotate(360deg);
+  animation: box-shape linear 5s infinite;
 }
 
 .hero-area {
