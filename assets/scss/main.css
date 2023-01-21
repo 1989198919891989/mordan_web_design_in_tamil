@@ -1040,4 +1040,59 @@ a {
 }
 .roadmap--item:hover {
   filter: grayscale(0);
+}
+
+.courses {
+  padding: 8rem 20rem;
+  background-color: #3f43fd;
+}
+.courses--heading {
+  text-align: center;
+  color: #fff;
+}
+.courses--heading h2 {
+  font-size: 2rem;
+  color: #fff;
+}
+.courses--heading p {
+  color: rgb 223, 223, 223;
+}
+.courses-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.courses-card {
+  background-color: #fff;
+  max-width: 380px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.courses-card--img {
+  width: 380px;
+}
+.courses-card .courses--card--body {
+  padding: 2rem;
+}
+.courses-card h4 {
+  font-size: 1rem;
+}
+.courses-card p {
+  color: gray;
+  line-height: 1.5;
+}
+.courses-card a {
+  color: rgba(0, 0, 0, 0.916);
+}
+.courses-card:hover {
+  box-shadow: 2px 2px 20px 5px rgba(45, 43, 43, 0.969);
+}
+.courses--info {
+  text-align: center;
+  color: #fff;
+}
+.courses--info a {
+  color: #fff;
+}
+.courses--info a:hover {
+  text-shadow: 2px 2px 10px rgb(45, 44, 44);
 }/*# sourceMappingURL=main.css.map */
