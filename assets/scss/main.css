@@ -910,6 +910,34 @@ a {
   animation: box-shape linear 5s infinite;
 }
 
+footer {
+  padding: 2rem;
+  background-color: #3f43fd;
+  text-align: center;
+  color: #fff;
+}
+footer p {
+  color: #e8e8e8;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  text-shadow: 2px 2px 10px #000;
+}
+footer .social-icons {
+  transition: 500ms;
+  font-size: 1.5rem;
+  padding: 0.1px;
+  color: #1619a0;
+}
+footer .social-icons:hover {
+  color: rgb(240, 237, 237);
+}
+footer .legal {
+  font-size: 0.9rem;
+}
+
 .hero-area {
   padding: 8rem 20rem;
   display: flex;
